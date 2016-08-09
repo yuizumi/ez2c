@@ -1,0 +1,27 @@
+body {
+    font-family: -apple-system;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #46c;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    background-color: #f8f8f8;
+    border: #ccc 1px solid;
+    padding: 0.5ex 0.5em;
+}
+
+.highlight .c1 { color: #060; }
+.highlight .cm { color: #060; }
+.highlight .k  { color: #009; }
+.highlight .s  { color: #666; }
