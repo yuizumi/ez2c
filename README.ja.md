@@ -1,7 +1,6 @@
 # ezgfm
 
-ezgfm は [SimpleHTTPServer] を少し拡張して GitHub 流の Markdown の文書（`*.md`）
-が HTML として表示されるようにしたものです。
+ezgfm は [SimpleHTTPServer] を少し拡張して GitHub 流の Markdown の文書（`*.md`）が HTML として表示されるようにしたものです。
 
 [SimpleHTTPServer]: http://docs.python.jp/2/library/simplehttpserver.html
 
@@ -25,8 +24,7 @@ Note: `pygments` はあったほうがよいですがなくても動作します
 $ python ezgfm.py [PORT]
 ~~~~
 
-あとはブラウザから http://localhost:8000/ （あるいは指定したポート）にアクセス
-してください。
+あとはブラウザから http://localhost:8000/ （あるいは指定したポート）にアクセスしてください。
 
 `style.css` がドキュメントルートにあればそれが使われます。
 
