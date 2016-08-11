@@ -1,25 +1,33 @@
-# ez2c
+# ezgfm
 
-ez2c (_easy to see_) is a simple extension of `SimpleHTTPServer` that renders
+ezgfm is a simple extension of [SimpleHTTPServer] that renders GitHub-flavored
 Markdown documents (`*.md`) as HTML.
+
+[SimpleHTTPServer]: https://docs.python.org/2.7/library/simplehttpserver.html
 
 
 ## Prerequisites
+
+ezgfm runs on Python 2.x and requires the following packages:
 
 ~~~~shell
 $ pip install markdown py-gfm pygments
 ~~~~
 
-Note: `pygments` is recommended but optional.
+Note: `pygments` is optional although recommended.
 
 
 ## Usage
 
+It's basically the same as SimpleHTTPServer:
+
 ~~~~shell
-$ python -m ez2c
+$ python ezgfm.py [PORT]
 ~~~~
 
-Then access http://localhost:8000/ (or the port number of your choice).
+Then access http://localhost:8000/ (or the port of your choice) on your browser.
+
+If you place `style.css` in the document root, ezgfm utilizes it.
 
 
 ## License
